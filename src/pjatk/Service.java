@@ -3,12 +3,13 @@ package pjatk;
 import java.util.*;
 
 public class Service {
+    List<Elementy> elementy1 = new ArrayList<>();
 
-    public Service(List<Elementy> elementy1) {
+    public Service() {
         this.elementy1 = elementy1;
     }
 
-    List<Elementy> elementy1 = new ArrayList<>();
+
 
     public List<Elementy> getElementy1() {
         return elementy1;

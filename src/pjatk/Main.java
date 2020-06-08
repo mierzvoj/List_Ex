@@ -4,10 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-
-
-        Static LoadElements le1 = new LoadElements();
-        le1.print();
+    Service srv1 = new Service();
+    System.out.println(srv1);
 
     }
 }
