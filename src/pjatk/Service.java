@@ -4,6 +4,10 @@ import java.util.*;
 
 public class Service {
 
+    public Service(List<Elementy> elementy1) {
+        this.elementy1 = elementy1;
+    }
+
     List<Elementy> elementy1 = new ArrayList<>();
 
     public List<Elementy> getElementy1() {
